@@ -1,0 +1,8 @@
+[Tue Dec 24 13:44:20 2024
+] Operation: invalid_command, Path:  slist /home/user/documents , Result: -1
+[Tue Dec 24 13:44:24 2024
+] Operation: invalid_command, Path:  slist /home/user/documents , Result: -1
+[Tue Dec 24 13:44:30 2024
+] Operation: slist, Path: /home/user/documents, Result: 0
+[Tue Dec 24 13:44:36 2024
+] Operation: exit, Path: -, Result: 0

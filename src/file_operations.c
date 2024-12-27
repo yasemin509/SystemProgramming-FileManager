@@ -11,7 +11,7 @@ void copy_file(const char *source, const char *destination) {
     struct stat dest_stat;
     char new_destination[1024];
 
-    // Hedef yol bir dizinse, dosya adını ekle
+    // If the target path is a directory, include the filename
     if (stat(destination, &dest_stat) == 0 && S_ISDIR(dest_stat.st_mode)) {
         snprintf(new_destination, sizeof(new_destination), "%s/%s", destination, basename((char *)source));
         destination = new_destination;
